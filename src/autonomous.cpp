@@ -15,6 +15,13 @@ pros::Distance indexerSensor(2);
 pros::Optical rollerSensor(3);
 pros::IMU imu_sensor(1);
 
+/* filters
+*
+* sylib::MedianFilter hueFilter(5, 2, 1);
+* sylib::MedianFilter distanceFilter(5, 2, 1);
+*
+*/
+
 
 // define OPTICAL_PORT 1
 void initialize() 
