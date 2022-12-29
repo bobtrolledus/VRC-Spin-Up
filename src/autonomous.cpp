@@ -91,6 +91,6 @@ void setRedRoller()
 
 void auton()
 {
-    // neg value indicates red
-    // pos value indicates blue
+    // neg value indicates red roller
+    // pos value indicates blue roller
 }
