@@ -81,7 +81,7 @@ void userControl(void)
     int forward = primaryController.Axis3.position();
     int strafe = primaryController.Axis4.position();
     int turn = primaryController.Axis1.position();
-    drive.drive(forward, strafe, turn, Brain);
+    drive.drive(forward, strafe, turn);
 
     // intake
     if (primaryController.ButtonL1.pressing())
