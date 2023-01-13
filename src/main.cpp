@@ -33,8 +33,8 @@ motor intake = motor(PORT3, ratio6_1, false);
 pneumatics firingPiston = pneumatics(Brain.ThreeWirePort.A);
 
 // flywheel
-motor flywheelFront = motor(PORT2, ratio36_1, false);
-motor flywheelBack = motor(PORT1, ratio36_1, false);
+motor flywheelFront = motor(PORT11, ratio36_1, false);
+motor flywheelBack = motor(PORT12, ratio36_1, false);
 motor_group flywheel = motor_group(flywheelFront, flywheelBack);
 
 /* Global Functions */
